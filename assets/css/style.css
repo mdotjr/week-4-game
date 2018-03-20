@@ -1,0 +1,61 @@
+body{
+    background-image: url("../images/backgroundimage.jpg")
+}
+
+div{
+    background-color: lightgray;
+    margin: 10px;
+    width: 55%;
+    padding: 10px;
+    display: inline-block;
+
+}
+* {
+    box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 20%;
+  padding: 0px;
+  background-size: 10px;
+  height: 90px;
+  
+  
+
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h1{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    background: burlywood;
+    display: inline-block;
+    background-size: 10px;
+}
+
+
+.numberToMatch{
+    display: inline-block;
+    width: 15%;
+    height: 150px;
+    float: unset;
+}
+
+
+.score{
+    float: unset;
+    width: 15%;
+    height: 100px;
+}
+
+.displayScore{
+    height: 100px;
+}
+
+
